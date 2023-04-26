@@ -213,21 +213,21 @@ TEMPLATES = [
 
 # GitHub username and token for sending pull requests.
 # Please see the documentation for more details.
-GITHUB_CREDENTIALS = {
-    "api.github.com": {
-        "username": "__GITHUB_USERNAME__",
-        "token": "__GITHUB_TOKEN__",
-    }
-}
+# GITHUB_CREDENTIALS = {
+#    "api.github.com": {
+#        "username": "__GITHUB_USERNAME__",
+#        "token": "__GITHUB_TOKEN__",
+#    }
+#}
 
 # GitLab username and token for sending merge requests.
 # Please see the documentation for more details.
-GITLAB_CREDENTIALS = {
-    "gitlab.com": {
-        "username": "__GITLAB_USERNAME__",
-        "token": "__GITLAB_TOKEN__",
-    }
-}
+#GITLAB_CREDENTIALS = {
+#    "gitlab.com": {
+#        "username": "__GITLAB_USERNAME__",
+#        "token": "__GITLAB_TOKEN__",
+#    }
+#}
 
 # Bitbucket username and token for sending merge requests.
 # Please see the documentation for more details.
@@ -250,17 +250,17 @@ AUTHENTICATION_BACKENDS = (
 AUTH_USER_MODEL = "weblate_auth.User"
 
 # Social auth backends setup
-SOCIAL_AUTH_GITHUB_KEY = ""
-SOCIAL_AUTH_GITHUB_SECRET = ""
-SOCIAL_AUTH_GITHUB_SCOPE = ["user:email"]
+#SOCIAL_AUTH_GITHUB_KEY = ""
+#SOCIAL_AUTH_GITHUB_SECRET = ""
+#SOCIAL_AUTH_GITHUB_SCOPE = ["user:email"]
 
-SOCIAL_AUTH_GITHUB_ORG_KEY = ""
-SOCIAL_AUTH_GITHUB_ORG_SECRET = ""
-SOCIAL_AUTH_GITHUB_ORG_NAME = ""
+#SOCIAL_AUTH_GITHUB_ORG_KEY = ""
+#SOCIAL_AUTH_GITHUB_ORG_SECRET = ""
+#SOCIAL_AUTH_GITHUB_ORG_NAME = ""
 
-SOCIAL_AUTH_GITHUB_TEAM_KEY = ""
-SOCIAL_AUTH_GITHUB_TEAM_SECRET = ""
-SOCIAL_AUTH_GITHUB_TEAM_ID = ""
+#SOCIAL_AUTH_GITHUB_TEAM_KEY = ""
+#SOCIAL_AUTH_GITHUB_TEAM_SECRET = ""
+#SOCIAL_AUTH_GITHUB_TEAM_ID = ""
 
 SOCIAL_AUTH_BITBUCKET_OAUTH2_KEY = ""
 SOCIAL_AUTH_BITBUCKET_OAUTH2_SECRET = ""
@@ -773,12 +773,12 @@ CRISPY_TEMPLATE_PACK = "bootstrap3"
 # )
 
 # List of automatic fixups
-# AUTOFIX_LIST = (
-#     "weblate.trans.autofixes.whitespace.SameBookendingWhitespace",
-#     "weblate.trans.autofixes.chars.ReplaceTrailingDotsWithEllipsis",
-#     "weblate.trans.autofixes.chars.RemoveZeroSpace",
-#     "weblate.trans.autofixes.chars.RemoveControlChars",
-# )
+ AUTOFIX_LIST = (
+     "weblate.trans.autofixes.whitespace.SameBookendingWhitespace",
+     "weblate.trans.autofixes.chars.ReplaceTrailingDotsWithEllipsis",
+     "weblate.trans.autofixes.chars.RemoveZeroSpace",
+     "weblate.trans.autofixes.chars.RemoveControlChars",
+ )
 
 # List of enabled addons
 # WEBLATE_ADDONS = (
