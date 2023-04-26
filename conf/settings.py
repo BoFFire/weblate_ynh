@@ -213,12 +213,12 @@ TEMPLATES = [
 
 # GitHub username and token for sending pull requests.
 # Please see the documentation for more details.
-# GITHUB_CREDENTIALS = {
-#    "api.github.com": {
-#        "username": "__GITHUB_USERNAME__",
-#        "token": "__GITHUB_TOKEN__",
-#    }
-#}
+GITHUB_CREDENTIALS = {
+    "api.github.com": {
+        "username": "__GITHUB_USERNAME__",
+        "token": "__GITHUB_TOKEN__",
+    }
+}
 
 # GitLab username and token for sending merge requests.
 # Please see the documentation for more details.
