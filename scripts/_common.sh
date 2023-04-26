@@ -31,19 +31,19 @@ fi
 # PERSONAL HELPERS
 #=================================================
 
-set_forge_variables() {
-	if [ $used_forge = "GitHub" ] ; then
-		github_username="$forge_username"
-		github_token="$forge_token"
-		gitlab_username="None"
-		gitlab_token="None"
-	else
-		github_username="None"
-		github_token="None"
-		gitlab_username="$forge_username"
-		gitlab_token="$forge_token"
-	fi
-}
+#set_forge_variables() {
+#	if [ $used_forge = "GitHub" ] ; then
+#		github_username="$forge_username"
+#		github_token="$forge_token"
+#		gitlab_username="None"
+#		gitlab_token="None"
+#	else
+#		github_username="None"
+#		github_token="None"
+#		gitlab_username="$forge_username"
+#		gitlab_token="$forge_token"
+#	fi
+#}
 
 #=================================================
 # EXPERIMENTAL HELPERS
